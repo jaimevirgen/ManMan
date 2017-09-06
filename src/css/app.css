@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+#gameInterface {
+    align-items: center;
+    background-color: rgba(0,0,0,0.15);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+#gameContainer {
+    background-color: rgba(255,2551,255,1);
+    flex: none;
+    width: 640px;
+    height: 480px;
+}
