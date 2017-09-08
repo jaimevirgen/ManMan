@@ -6,10 +6,30 @@ body {
     margin: 0;
 }
 
+#gameStatusBar {
+    background-color: rgba(0,0,0,0.15);
+    height: 2em;
+    width: 640px;
+}
+
+#progressValue {
+    background-color: rgba(0,0,0,1);
+    width: 50px;
+    height: 2em;
+}
+
+#progressValueLabel {
+    color: white;
+    font-size: 1.5em;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Courier", "sans-serif";
+    padding: 5px;
+}
+
 #gameInterface {
     align-items: center;
     background-color: rgba(0,0,0,0.15);
     display: flex;
+    flex-direction: column;
     height: 100%;
     justify-content: center;
     width: 100%;
