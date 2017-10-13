@@ -37,7 +37,6 @@ body {
 
 #gameContainer {
     background-color: rgba(255,2551,255,1);
-    flex: none;
     width: 640px;
     height: 480px;
 }
